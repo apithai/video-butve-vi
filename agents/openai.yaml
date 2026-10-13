@@ -1,0 +1,4 @@
+interface:
+  display_name: "SRT Whiteboard Animation"
+  short_description: "Biến phụ đề SRT thành video whiteboard nét bút chảy, có thể xem trước và chỉnh sửa"
+  default_prompt: "Dùng $srt-whiteboard-animation để tạo video whiteboard vẽ tay từ phụ đề SRT này."

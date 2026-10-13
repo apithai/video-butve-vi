@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sản phẩm cục bộ (video thành phẩm nặng, không đưa vào repo; giữ lại video ví dụ banana)
+*.mp4
+!examples/scene-01-monkey-mountain-banana-whiteboard.mp4
+
+# OS
+Thumbs.db
+.DS_Store

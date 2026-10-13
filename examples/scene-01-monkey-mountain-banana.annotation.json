@@ -1,0 +1,41 @@
+{
+  "sceneId": "scene-01",
+  "canvas": { "width": 1672, "height": 941 },
+  "storyBasis": "Trên núi khỉ, khỉ con cầm quả chuối, khỉ lớn lao tới giật lấy, các em nhỏ đứng xem bên cạnh.",
+  "sceneDurationMs": 8600,
+  "elements": [
+    {
+      "id": "left",
+      "label": "Cảnh bên trái",
+      "sequence": 1,
+      "narrativeRole": "Bối cảnh mở đầu",
+      "subtitle": "Trên núi khỉ, một chú khỉ con ngồi trên đỉnh núi đá, tay cầm một quả chuối.",
+      "type": "structure",
+      "region": { "x": 20, "y": 120, "width": 540, "height": 780 },
+      "reveal": { "direction": "top_to_bottom", "startMs": 300, "durationMs": 2600, "maskPaddingPx": 22, "protectedRegions": [] },
+      "handPath": { "start": [290, 130], "end": [290, 890], "easing": "easeInOut" }
+    },
+    {
+      "id": "center",
+      "label": "Chủ thể ở giữa",
+      "sequence": 2,
+      "narrativeRole": "Xung đột hành động",
+      "subtitle": "Đột nhiên, một con khỉ lớn từ bên cạnh lao tới, giật phắt quả chuối.",
+      "type": "character",
+      "region": { "x": 560, "y": 100, "width": 560, "height": 800 },
+      "reveal": { "direction": "top_to_bottom", "startMs": 3000, "durationMs": 2600, "maskPaddingPx": 22, "protectedRegions": [] },
+      "handPath": { "start": [840, 110], "end": [840, 890], "easing": "easeInOut" }
+    },
+    {
+      "id": "right",
+      "label": "Phản ứng bên phải",
+      "sequence": 3,
+      "narrativeRole": "Phản ứng và kết quả",
+      "subtitle": "Các em nhỏ đứng xem bên cạnh đều sững sờ, rồi vỗ tay cười ầm lên.",
+      "type": "character",
+      "region": { "x": 1120, "y": 140, "width": 532, "height": 760 },
+      "reveal": { "direction": "top_to_bottom", "startMs": 5700, "durationMs": 2400, "maskPaddingPx": 22, "protectedRegions": [] },
+      "handPath": { "start": [1380, 150], "end": [1380, 880], "easing": "easeInOut" }
+    }
+  ]
+}
